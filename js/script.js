@@ -24,7 +24,7 @@ function post() {
     newDiv.append(check);
     newDiv.append(newContent);
     panel[0].appendChild(newDiv);
-
+    text[0].value = "";
     console.log("Submitting...");
   });
 }
